@@ -13,6 +13,7 @@ apidocs
 swagger
 v1/swagger.json
 api/apidocs
+api/openapi.json
 api/v1/apidocs
 api/v2/apidocs
 api/api-docs
@@ -24,6 +25,7 @@ swagger.json
 swagger-ui.html
 swagger-ui.json
 swagger.yml
+swagger.yaml
 api/swagger
 api/swagger/
 api/swagger.json
@@ -47,3 +49,8 @@ api
 api/v1/
 api/v2
 api/v3
+openapi.json
+openapi.yml
+openapi.yaml
+.well-known/openapi.json
+.well-known/openapi.yaml
