@@ -4,7 +4,18 @@
 
 SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more. The goal is to enable a security tester to pull this repository onto a new testing box and have access to every type of list that may be needed.
 
-This project is maintained by [Daniel Miessler](https://danielmiessler.com/), [Jason Haddix](https://twitter.com/Jhaddix), and [g0tmi1k](https://blog.g0tmi1k.com/).
+This project is maintained by [Daniel Miessler](https://danielmiessler.com/), [Jason Haddix](https://twitter.com/Jhaddix), [Ignacio Portal](https://github.com/ItsIgnacioPortal) and [g0tmi1k](https://blog.g0tmi1k.com/).
+
+- - -
+
+
+### Repository details
+
+![Repo size](https://img.shields.io/github/repo-size/danielmiessler/SecLists.svg)
+
+<!-- This badge is automatically updated by a GitHub Action. Do not edit manually. -->
+![Approx cloning time](https://img.shields.io/badge/clone%20time-~%205m%201s%20@50Mb/s-blue)
+
 
 - - -
 
@@ -13,19 +24,16 @@ This project is maintained by [Daniel Miessler](https://danielmiessler.com/), [J
 **Zip**
 
 ```
-wget -c https://github.com/danielmiessler/SecLists/archive/master.zip -O SecList.zip \
-  && unzip SecList.zip \
-  && rm -f SecList.zip
+wget -c https://github.com/danielmiessler/SecLists/archive/master.zip -O SecList.zip && unzip SecList.zip && rm -f SecList.zip
 ```
 
-**Git (Small)**
+**Git: No commit history (faster)**
 
 ```
-git clone --depth 1 \
-  https://github.com/danielmiessler/SecLists.git
+git clone --depth 1 https://github.com/danielmiessler/SecLists.git
 ```
 
-**Git (Complete)**
+**Git: Complete**
 
 ```
 git clone https://github.com/danielmiessler/SecLists.git
@@ -35,6 +43,12 @@ git clone https://github.com/danielmiessler/SecLists.git
 
 ```
 apt -y install seclists
+```
+
+**BlackArch** ([Tool Page](https://blackarch.org/tools.html))
+
+```
+sudo pacman -S seclists
 ```
 
 - - -
@@ -59,6 +73,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 - [Cook](https://github.com/giteshnxtlvl/cook)
 - [SamLists](https://github.com/the-xentropy/samlists)
+- [BiblePass](https://github.com/MusicGivesMeLife/BiblePass): Wordlists compiled from Bible verses
 
 - - -
 
@@ -66,8 +81,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 This project is licensed under the [MIT license](LICENSE).
 
-![MIT License](https://danielmiessler.com/images/mitlicense.png)
-
-—
+[![MIT License](https://img.shields.io/badge/license-MIT_License-blue)](https://opensource.org/licenses/MIT)
 
 <sup>NOTE: Downloading this repository is likely to cause a false-positive alarm by your anti-virus or anti-malware software, the filepath should be whitelisted. There is nothing in SecLists that can harm your computer as-is, however it's not recommended to store these files on a server or other important system due to the risk of local file include attacks.</sup>

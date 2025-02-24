@@ -430,6 +430,7 @@ wp-admin/js/revisions.min.js
 wp-admin/js/set-post-thumbnail.dev.js
 wp-admin/js/set-post-thumbnail.js
 wp-admin/js/set-post-thumbnail.min.js
+wp-admin/js/site-health.min.js
 wp-admin/js/tags.dev.js
 wp-admin/js/tags.js
 wp-admin/js/tags.min.js
@@ -579,6 +580,7 @@ wp-config-sample.php
 wp-config.php
 wp-config.php.stage
 wp-content/
+wp-content/debug.log
 wp-content/index.php
 wp-content/plugins/
 wp-content/plugins/akismet/
